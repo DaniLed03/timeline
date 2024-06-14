@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('../img/FondoCarros.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px; /* Ajusta el tamaño del logo */
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+h1 {
+    color: #38d39f;
+    font-family: 'Bagel Fat One', cursive;
+}
+
+.btn-primary {
+    background-color: #38d39f;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #32be8f;
+}
+
+.media-card {
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img,
+.card video {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-title {
+    color: #38d39f;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+.text-muted {
+    color: #aaa !important;
+}

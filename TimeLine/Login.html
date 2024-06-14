@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <img class="wave" src="img/wave.png">
+    <div class="container">
+        <div class="img">
+            <img src="img/Ledetech.png">
+        </div>
+        <div class="login-content">
+            <form id="loginForm">
+                <img src="img/avatar.svg">
+                <h2 class="title">Iniciar Sesión</h2>
+                <div class="input-div one">
+                   <div class="i">
+                        <i class="fas fa-user"></i>
+                   </div>
+                   <div>
+                        <h5>Nombre de usuario</h5>
+                        <input type="text" class="input" id="username">
+                   </div>
+                </div>
+                <div class="input-div pass">
+                   <div class="i"> 
+                        <i class="fas fa-lock"></i>
+                   </div>
+                   <div>
+                        <h5>Contraseña</h5>
+                        <input type="password" class="input" id="password">
+                   </div>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Recordar usuario</label>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+                <div class="links mt-3">
+                    <a href="forgot_password.html">Recuperar contraseña</a>
+                    <a href="Registro.html">Registrarse</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

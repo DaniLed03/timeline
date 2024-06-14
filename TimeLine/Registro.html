@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Nuevo Usuario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <img class="wave" src="img/wave.png">
+    <div class="container">
+        <div class="img">
+            <img src="img/Ledetech.png">
+        </div>
+        <div class="register-content">
+            <form id="registerForm">
+                <img src="img/avatar.svg">
+                <h2 class="title">Registro</h2>
+                <div class="form-row">
+                    <div class="input-div">
+                       <div class="i">
+                            <i class="fas fa-user"></i>
+                       </div>
+                       <div>
+                            <h5>Nombre de usuario</h5>
+                            <input type="text" class="input" id="username">
+                       </div>
+                    </div>
+                    <div class="input-div">
+                       <div class="i">
+                            <i class="fas fa-user"></i>
+                       </div>
+                       <div>
+                            <h5>Nombre</h5>
+                            <input type="text" class="input" id="firstName">
+                       </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-div pass">
+                       <div class="i"> 
+                            <i class="fas fa-lock"></i>
+                       </div>
+                       <div>
+                            <h5>Contraseña</h5>
+                            <input type="password" class="input" id="password">
+                       </div>
+                    </div>
+                    <div class="input-div pass">
+                       <div class="i"> 
+                            <i class="fas fa-lock"></i>
+                       </div>
+                       <div>
+                            <h5>Confirmar Contraseña</h5>
+                            <input type="password" class="input" id="confirmPassword">
+                       </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-div">
+                       <div class="i"> 
+                            <i class="fas fa-envelope"></i>
+                       </div>
+                       <div>
+                            <h5>Email</h5>
+                            <input type="email" class="input" id="email">
+                       </div>
+                    </div>
+                    <div class="input-div">
+                       <div class="i"> 
+                            <i class="fas fa-user"></i>
+                       </div>
+                       <div>
+                            <h5>Apellidos</h5>
+                            <input type="text" class="input" id="lastName">
+                       </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-div">
+                       <div class="i"> 
+                            <i class="fas fa-venus-mars"></i>
+                       </div>
+                       <div>
+                            <h5>Género</h5>
+                            <select class="input" id="gender">
+                                <option>Seleccione</option>
+                                <option>Hombre</option>
+                                <option>Mujer</option>
+                                <option>No Aplica</option>
+                                <option>Prefiero no Decirlo</option>
+                                <option>Otro</option>
+                            </select>
+                            <input type="text" class="input mt-2" id="otherGender" style="display: none;" placeholder="Especificar">
+                       </div>
+                    </div>
+                    <div class="input-div">
+                       <div class="i"> 
+                            <i class="fas fa-calendar"></i>
+                       </div>
+                       <div>
+                            <h5>Fecha de Nacimiento</h5>
+                            <input type="date" class="input" id="birthDate">
+                       </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>
